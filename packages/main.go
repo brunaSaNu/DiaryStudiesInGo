@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"modulo/packages/auxiliar"
+	"modulo/auxiliar"
 	"github.com/badoux/checkmail"
 )
-
 func main() {
 	fmt.Println("Escrevendo da main")
 	auxiliar.Escrever()
