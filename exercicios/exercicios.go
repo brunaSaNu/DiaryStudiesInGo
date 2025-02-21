@@ -3,10 +3,17 @@ package main
 import "fmt"
 
 func main() {
+	variavelInteira := 10
 
-	var inteiro1, inteiro2, PROD int
-	fmt.Scan(&inteiro1, &inteiro2)
-	PROD = inteiro1 + inteiro2
+	var ponteiro * int
+	ponteiro = &variavelInteira
 
-	fmt.Println("PROD =", PROD)
+	fmt.Println(*ponteiro)
+
+	variavelInteira++
+
+	*ponteiro = 30
+
+	fmt.Println(*ponteiro)
+
 }
