@@ -33,4 +33,28 @@ func main() {
 
 	array2[1] = "New position"
 	fmt.Println(sliceTwo)
+
+	//Arrays internos
+
+	fmt.Println("_____________")
+
+	sliceTree := make([]float32, 10, 11)
+	fmt.Println(sliceTree)
+	fmt.Println(len(sliceTree)) //length
+	fmt.Println(cap(sliceTree)) //capacidade
+
+	sliceTree = append(sliceTree, 5)
+	sliceTree = append(sliceTree, 6)
+
+	fmt.Println(sliceTree)
+	fmt.Println(len(sliceTree)) //length
+	fmt.Println(cap(sliceTree)) //capacidade
+
+	fmt.Println("__________")
+
+	sliceFour := make([]float32, 5)
+	fmt.Println(sliceFour)
+	sliceFour = append(sliceFour, 10)
+	fmt.Println(len(sliceFour))
+	fmt.Println(cap(sliceFour))
 }
