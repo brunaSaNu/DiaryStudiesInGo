@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func adicionarDez(adc *int){
-	*adc += 10
-}
+//func adicionarDez(adc *int){
+	//*adc += 10
+//}
 
 func main() {
 	//variavelInteira := 10
@@ -39,12 +39,29 @@ func main() {
 
 	//fmt.Println(mensagem)
 
-	numero := 30
+	//numero := 30
 
-	fmt.Println("Valor antes:", numero)
+	//fmt.Println("Valor antes:", numero)
 
-	adicionarDez(&numero)
+	//adicionarDez(&numero)
 
-	fmt.Println("Valor depois: ", numero)
+	//fmt.Println("Valor depois: ", numero)
 
+	//fmt.Println("Olá, mundo!")
+
+	//var a, b int
+	//fmt.Println("Digite dois números: ")
+	//fmt.Scan(&a, &b)
+	//fmt.Println("Você digitou:", a, "e", b)
+
+	var nome string
+	var idade int
+	
+	//fmt.Println("Digite seu nome e sua idade: ")
+	//fmt.Scanln(&nome, &idade)
+	//fmt.Println("Nome: ", nome, "- idade:", idade)
+
+	fmt.Println("Digite seu nome e sua idade: ")
+	fmt.Scanf("%s %d", &nome, &idade)
+	fmt.Printf("Nome: %s - idade: %d", nome, idade)
 }
