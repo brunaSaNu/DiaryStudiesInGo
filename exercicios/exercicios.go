@@ -54,14 +54,20 @@ func main() {
 	//fmt.Scan(&a, &b)
 	//fmt.Println("Você digitou:", a, "e", b)
 
-	var nome string
-	var idade int
+	//var nome string
+	//var idade int
 	
 	//fmt.Println("Digite seu nome e sua idade: ")
 	//fmt.Scanln(&nome, &idade)
 	//fmt.Println("Nome: ", nome, "- idade:", idade)
 
-	fmt.Println("Digite seu nome e sua idade: ")
-	fmt.Scanf("%s %d", &nome, &idade)
-	fmt.Printf("Nome: %s - idade: %d", nome, idade)
+	//fmt.Println("Digite seu nome e sua idade: ")
+	//fmt.Scanf("%s %d", &nome, &idade)
+	//fmt.Printf("Nome: %s - idade: %d", nome, idade)
+
+	var inteiro1, inteiro2, PROD int
+	fmt.Scan(&inteiro1, &inteiro2)
+	PROD = inteiro1 * inteiro2
+
+	fmt.Println("PROD =", PROD)
 }
