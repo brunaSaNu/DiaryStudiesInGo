@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //func adicionarDez(adc *int){
-	//*adc += 10
+//*adc += 10
 //}
 
 func main() {
@@ -56,7 +56,7 @@ func main() {
 
 	//var nome string
 	//var idade int
-	
+
 	//fmt.Println("Digite seu nome e sua idade: ")
 	//fmt.Scanln(&nome, &idade)
 	//fmt.Println("Nome: ", nome, "- idade:", idade)
@@ -65,12 +65,21 @@ func main() {
 	//fmt.Scanf("%s %d", &nome, &idade)
 	//fmt.Printf("Nome: %s - idade: %d", nome, idade)
 
-	const n float64 = 3.14159
-	var area, raio float64
+	//const n float64 = 3.14159
+	//var area, raio float64
 
-	fmt.Scanf("%f", &raio)
+	//fmt.Scanf("%f", &raio)
 
-	area = n * (raio * raio)
+	//area = n * (raio * raio)
 
-	fmt.Printf("A=%.4f\n", area)
+	//fmt.Printf("A=%.4f\n", area)
+
+	var A, B, media float64
+
+	fmt.Scanf("%f\n%f", &A, &B)
+	
+	media = ((A * 3.5) + (B * 7.5)) / 11.0
+
+	fmt.Printf("MEDIA = %.5f\n", media)
+
 }
