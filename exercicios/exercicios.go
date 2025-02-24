@@ -96,6 +96,18 @@ func main() {
 
 	//diferenca = (A * B) - (C * D)
 
-	//fmt.Println("DIFERENCA = ", diferenca)
+	//fmt.Println("DIFERENCA =", diferenca)
+
+	var number, hours int
+	var rececipe float64
+	var salary float64
+
+	fmt.Scan(&number, &hours)
+	fmt.Scan(&rececipe)
+
+	salary = float64(hours) * rececipe
+
+	fmt.Println("NUMBER =", number)
+	fmt.Printf("SALARY = U$ %.2f\n", salary)
 
 }
