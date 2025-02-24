@@ -82,12 +82,20 @@ func main() {
 
 	//fmt.Printf("MEDIA = %.5f\n", media)
 
-	var A, B, C, media float64
+	//var A, B, C, media float64
 
-	fmt.Scanf("%f\n%f\n%f\n", &A, &B, &C)
+	//fmt.Scanf("%f\n%f\n%f\n", &A, &B, &C)
 
-	media = (((A * 2) + (B * 3) + (C * 5)) / 10.0)
+	//media = (((A * 2) + (B * 3) + (C * 5)) / 10.0)
 
-	fmt.Printf("MEDIA = %.1f\n", media)
+	//fmt.Printf("MEDIA = %.1f\n", media)
+
+	//var A, B, C, D, diferenca int
+
+	//fmt.Scan(&A, &B, &C, &D)
+
+	//diferenca = (A * B) - (C * D)
+
+	//fmt.Println("DIFERENCA = ", diferenca)
 
 }
