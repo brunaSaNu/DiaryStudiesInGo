@@ -74,12 +74,20 @@ func main() {
 
 	//fmt.Printf("A=%.4f\n", area)
 
-	var A, B, media float64
+	//var A, B, media float64
 
-	fmt.Scanf("%f\n%f", &A, &B)
+	//fmt.Scanf("%f\n%f", &A, &B)
 	
-	media = ((A * 3.5) + (B * 7.5)) / 11.0
+	//media = ((A * 3.5) + (B * 7.5)) / 11.0
 
-	fmt.Printf("MEDIA = %.5f\n", media)
+	//fmt.Printf("MEDIA = %.5f\n", media)
+
+	var A, B, C, media float64
+
+	fmt.Scanf("%f\n%f\n%f\n", &A, &B, &C)
+
+	media = (((A * 2) + (B * 3) + (C * 5)) / 10.0)
+
+	fmt.Printf("MEDIA = %.1f\n", media)
 
 }
