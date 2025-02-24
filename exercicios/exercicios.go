@@ -65,9 +65,12 @@ func main() {
 	//fmt.Scanf("%s %d", &nome, &idade)
 	//fmt.Printf("Nome: %s - idade: %d", nome, idade)
 
-	var inteiro1, inteiro2, PROD int
-	fmt.Scan(&inteiro1, &inteiro2)
-	PROD = inteiro1 * inteiro2
+	const n float64 = 3.14159
+	var area, raio float64
 
-	fmt.Println("PROD =", PROD)
+	fmt.Scanf("%f", &raio)
+
+	area = n * (raio * raio)
+
+	fmt.Printf("A=%.4f\n", area)
 }
