@@ -98,16 +98,27 @@ func main() {
 
 	//fmt.Println("DIFERENCA =", diferenca)
 
-	var number, hours int
-	var rececipe float64
-	var salary float64
+	//var number, hours int
+	//var rececipe float64
+	//var salary float64
 
-	fmt.Scan(&number, &hours)
-	fmt.Scan(&rececipe)
+	//fmt.Scan(&number, &hours)
+	//fmt.Scan(&rececipe)
 
-	salary = float64(hours) * rececipe
+	//salary = float64(hours) * rececipe
 
-	fmt.Println("NUMBER =", number)
-	fmt.Printf("SALARY = U$ %.2f\n", salary)
+	//fmt.Println("NUMBER =", number)
+	//fmt.Printf("SALARY = U$ %.2f\n", salary)
 
+	var name string
+	var salary, sales, total float64
+	const percentage = 15.00
+
+	fmt.Scan(&name)
+	fmt.Scan(&salary, &sales)
+
+	total = ((percentage * sales) / 100)
+	total = total + salary
+
+	fmt.Printf("TOTAL = R$ %.2f\n", total)
 }
