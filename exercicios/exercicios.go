@@ -6,7 +6,7 @@ import "fmt"
 //*adc += 10
 //}
 
-func main() {
+func main2() {
 	//variavelInteira := 10
 
 	//var ponteiro * int
@@ -47,7 +47,7 @@ func main() {
 
 	//fmt.Println("Valor depois: ", numero)
 
-	//fmt.Println("Olá, mundo!")
+	fmt.Println("Olá, mundo!")
 
 	//var a, b int
 	//fmt.Println("Digite dois números: ")
@@ -122,21 +122,21 @@ func main() {
 
 	//fmt.Printf("TOTAL = R$ %.2f\n", total)
 
-	var codigoPeca, numeroPeca int
-	var codigoPeca1, numeroPeca1 int
-	var valorPeca float64
-	var valorPeca1 float64
-	var valorAPagar float64
-	var valorAPagar1 float64
-	var valorTotal float64
+	//var codigoPeca, numeroPeca int
+	//var codigoPeca1, numeroPeca1 int
+	//var valorPeca float64
+	//var valorPeca1 float64
+	//var valorAPagar float64
+	//var valorAPagar1 float64
+	//var valorTotal float64
 
-	fmt.Scanln(&codigoPeca, &numeroPeca, &valorPeca)
-	fmt.Scanln(&codigoPeca1, &numeroPeca1, &valorPeca1)
+	//fmt.Scanln(&codigoPeca, &numeroPeca, &valorPeca)
+	//fmt.Scanln(&codigoPeca1, &numeroPeca1, &valorPeca1)
 
-	valorAPagar = float64(numeroPeca) * valorPeca
-	valorAPagar1 = float64(numeroPeca1) * valorPeca1
-	valorTotal = valorAPagar + valorAPagar1
+	//valorAPagar = float64(numeroPeca) * valorPeca
+	//valorAPagar1 = float64(numeroPeca1) * valorPeca1
+	//valorTotal = valorAPagar + valorAPagar1
 
-	fmt.Printf("VALOR A PAGAR: R$ %.2f\n", valorTotal)
+	//fmt.Printf("VALOR A PAGAR: R$ %.2f\n", valorTotal)
 
 }
