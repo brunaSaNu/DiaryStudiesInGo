@@ -110,15 +110,33 @@ func main() {
 	//fmt.Println("NUMBER =", number)
 	//fmt.Printf("SALARY = U$ %.2f\n", salary)
 
-	var name string
-	var salary, sales, total float64
-	const percentage = 15.00
+	//var name string
+	//var salary, sales, total float64
+	//const percentage = 15.00
 
-	fmt.Scan(&name)
-	fmt.Scan(&salary, &sales)
+	//fmt.Scan(&name)
+	//fmt.Scan(&salary, &sales)
 
-	total = ((percentage * sales) / 100)
-	total = total + salary
+	//total = ((percentage * sales) / 100)
+	//total = total + salary
 
-	fmt.Printf("TOTAL = R$ %.2f\n", total)
+	//fmt.Printf("TOTAL = R$ %.2f\n", total)
+
+	var codigoPeca, numeroPeca int
+	var codigoPeca1, numeroPeca1 int
+	var valorPeca float64
+	var valorPeca1 float64
+	var valorAPagar float64
+	var valorAPagar1 float64
+	var valorTotal float64
+
+	fmt.Scanln(&codigoPeca, &numeroPeca, &valorPeca)
+	fmt.Scanln(&codigoPeca1, &numeroPeca1, &valorPeca1)
+
+	valorAPagar = float64(numeroPeca) * valorPeca
+	valorAPagar1 = float64(numeroPeca1) * valorPeca1
+	valorTotal = valorAPagar + valorAPagar1
+
+	fmt.Printf("VALOR A PAGAR: R$ %.2f\n", valorTotal)
+
 }
